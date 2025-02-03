@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int r,pi;
+    float r,pi;
     float a;
     scanf("%d",&r);
     pi=3.14;
