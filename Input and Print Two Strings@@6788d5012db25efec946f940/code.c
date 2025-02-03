@@ -1,7 +1,7 @@
 #include <stdio.h>{
 char h[100];
 char j[100];
-scanf("%c %c",&h,&j);
-printf("You entered: %c and %c",h,j);
+scanf("%s %s",&h,&j);
+printf("You entered: %s and %s",h,j);
 return 0;
 }
