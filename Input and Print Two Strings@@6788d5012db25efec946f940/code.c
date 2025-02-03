@@ -1,4 +1,5 @@
-#include <stdio.h>{
+#include <stdio.h>
+int main(){
 char h[100];
 char j[100];
 scanf("%s %s",&h,&j);
