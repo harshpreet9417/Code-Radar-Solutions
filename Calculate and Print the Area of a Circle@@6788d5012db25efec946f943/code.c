@@ -3,7 +3,7 @@
 int main(){
     float r,pi;
     float a;
-    scanf("%d",&r);
+    scanf("%f",&r);
     pi=3.14;
     a= pi*r*r;
     printf("Area: %.2f",a);
