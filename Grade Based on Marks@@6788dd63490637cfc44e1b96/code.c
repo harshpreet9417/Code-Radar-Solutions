@@ -8,13 +8,13 @@ int main() {
     }else if (a>=80 && a<90)
     {
         printf("%c",'B');
-    }else if (a>=70 && <80)
+    }else if (a>=70 && a<80)
     {
         printf("%c",'C');
-    }else if(a>=60 && a<70)
+    }else if( a>=60 && a<70)
     {
         printf("%c",'D');
-    }else{
+    }else if (a<60){
         printf("%c",'F');
     }
     return 0;
