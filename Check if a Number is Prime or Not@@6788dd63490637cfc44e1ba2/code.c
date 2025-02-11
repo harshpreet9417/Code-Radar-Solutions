@@ -5,7 +5,6 @@
 int main() {
 
   int n, i, flag = 0;
-  printf("Enter a positive integer: ");
   scanf("%d", &n);
 
   
@@ -22,9 +21,9 @@ int main() {
   }
 
   if (flag == 0)
-    printf("%d is a prime number.", n);
+    printf("Prime");
   else
-    printf("%d is not a prime number.", n);
+    printf("Not Prime");
 
   return 0;
 }
