@@ -13,7 +13,7 @@ int main(){
     } else if (c=='/' && b==0){
         printf("%.0f",a/b);
     }
-    } else {
+     else {
         printf("Error");
     }
     return 0;
