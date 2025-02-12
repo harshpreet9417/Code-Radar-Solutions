@@ -5,6 +5,6 @@ int main(){
     scanf("%d",&n);
     for (i=1;i<=n;i++){
         sum = i+i;
-        printf("%d",);
+        printf("%d",sum);
     }return 0;
 }
