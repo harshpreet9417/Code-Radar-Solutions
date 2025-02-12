@@ -3,11 +3,11 @@
 int main(){
     int a,i;
     scanf("%d",&a);
-    for (i<=12){
-        if(i%2!=0){
+    for (a<=12){
+        if(a%2!=0){
             printf("%d",31);
         }
-        else if(i%2==0 && i!=2){
+        else if(a%2==0 && a!=2){
             printf("%d",30);
         }
         else{
