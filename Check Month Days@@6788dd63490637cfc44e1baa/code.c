@@ -5,13 +5,13 @@ int main(){
     scanf("%d",&a);
     for (i<=12){
         if(i%2!=0){
-            printf("31");
+            printf("%d",31);
         }
         else if(i%2==0 && i!=2){
-            printf("30");
+            printf("%d",30);
         }
         else{
-            printf("28");
+            printf("%d",28);
         }
     }return 0;
 }
