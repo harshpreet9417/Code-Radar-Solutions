@@ -3,7 +3,7 @@
 int main(){
     int a,i;
     scanf("%d",&a);
-    for (a<=12){
+    for (a<=12 && a>=1){
         if(a%2!=0){
             printf("%d",31);
         }
