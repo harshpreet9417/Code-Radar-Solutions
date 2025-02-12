@@ -3,15 +3,16 @@
 int main(){
     int a,i;
     scanf("%d",&a);
-    for (a<=12 && a>=1){
-        if(a%2!=0){
-            printf("%d",31);
-        }
-        else if(a%2==0 && a!=2){
-            printf("%d",30);
-        }
-        else{
-            printf("%d",28);
-        }
-    }return 0;
+    if (a<1 || a>12){
+        printf("Invalid Month");
+    }
+    else if(a==2){
+        printf("28");
+    } else if (a==4 || a==6 || a==9|| a==11){
+        printf("30");
+    }else{
+        printf("31");
+    }
+    
+    return 0;
 }
