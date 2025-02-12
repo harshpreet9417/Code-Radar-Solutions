@@ -6,13 +6,13 @@ int main(){
     scanf("%f %f %c",&a,&b,&c);
     if (c=='+'){
         printf("%d",a+b);
-    }else if (c=='-'){
+    } else if (c=='-'){
         printf("%d",a-b);
-    }else if (c=='*'){
+    } else if (c=='*'){
         printf("%d",a*b);
-    } else if(c=='/'){
+    } else if (c=='/'){
         printf("%d",a/b);
-    }else{
+    } else {
         printf("Error");
     }
     return 0;
