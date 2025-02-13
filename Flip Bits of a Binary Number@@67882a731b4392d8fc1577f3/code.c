@@ -6,7 +6,7 @@ int main(){
     if(n>=1){
     printf("-%d",n+1);}
     else{
-        printf("0");
+        printf("-1");
     }
     return 0;
 }
