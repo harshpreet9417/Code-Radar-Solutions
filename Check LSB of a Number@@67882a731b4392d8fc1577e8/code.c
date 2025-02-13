@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%d",&a);
-    for ( i=sizeof(a)*8 -1 ;i>=0;i--){
-        printf("%d",(n>>i) & 1);
+    int num;
+    scanf("%d", &num);
+    if (num & 1) {
+        printf("Set");
+    } else {
+        printf("Not Set");
     }
+
     return 0;
 }
