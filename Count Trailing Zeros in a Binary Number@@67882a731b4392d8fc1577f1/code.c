@@ -14,7 +14,7 @@ int main() {
     scanf("%d", &num);
 
     int result = countTrailingZeroes(num);
-    printf(" %d\n", result);
+    printf("%d\n", result);
 
     return 0;
 }
