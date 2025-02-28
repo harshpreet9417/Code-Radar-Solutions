@@ -8,8 +8,12 @@ int main(){
             if (i==0 || j== 0 || i==(m-1) ||j== (m-1)){
                 printf("*");
             }
-            printf("\n");
+            else{
+                printf(" ");
+            }
+            
         }
+        printf("\n");
     }
     return 0;
 }
