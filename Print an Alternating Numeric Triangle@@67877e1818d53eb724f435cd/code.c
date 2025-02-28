@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&m);
     for (int i=1;i<=m;i++){
         for (int j=1;j<=i;j++){
-            if (i%2==0 && j==0 ){
+            if (i%2==0 && j==0 || i==j){
                 printf("1");
             }
             else {
