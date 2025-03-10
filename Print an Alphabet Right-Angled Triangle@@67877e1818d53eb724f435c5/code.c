@@ -5,9 +5,10 @@ int main(){
     char alpha;
     scanf("%d",&m);
     alpha='A';
+    beta='A' +1;
     for (int i=1;i<=m;i++){
         for (int j=1;j<=i;j++){
-            printf("%c ",alpha);
+            printf("%c ",beta);
 
         }
         printf("\n");
