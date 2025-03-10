@@ -29,7 +29,7 @@ int main(){
             if(i==j){
             printf("%c ",alpha);}
             else{
-                printf("%c",alpha);
+                printf("%c ",alpha);
                 alpha++;
             }
         }
