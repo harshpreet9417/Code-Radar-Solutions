@@ -2,10 +2,10 @@
 #include<stdio.h>
 int main(){
     int m;
-    char alpha;
+    char alpha,beta;
     scanf("%d",&m);
     alpha='A';
-    beta='A' +1;
+    beta='A' + 1;
     for (int i=1;i<=m;i++){
         for (int j=1;j<=i;j++){
             printf("%c ",beta);
