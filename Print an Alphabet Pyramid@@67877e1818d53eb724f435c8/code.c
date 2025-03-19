@@ -3,7 +3,6 @@
 
 int main(){
     int m;
-    char alpha='A';
     scanf("%d",&m);
     for (int i=1;i<=m;i++){
         char alpha='A';
