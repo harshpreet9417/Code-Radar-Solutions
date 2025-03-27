@@ -10,7 +10,7 @@ int main(){
     int min=array[0], max =array[0];
     for(i=0;i<n;i++){
     if(array[i]<array[0]){
-        printf("%d",array[i]);
+        printf("%d ",array[i]);
     }
     }
     for(i=0;i<n;i++){
