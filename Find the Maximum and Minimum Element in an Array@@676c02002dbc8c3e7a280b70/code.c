@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
-    int min=array[0],int max =array[0];
+    int min=array[0], max =array[0];
     for(i=0;i<n;i++){
     if(array[i]<array[0]){
         printf("%d",array[i]);
