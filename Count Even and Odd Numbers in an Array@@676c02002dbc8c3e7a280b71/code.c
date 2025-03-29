@@ -8,7 +8,7 @@ int main(){
     int odd_count=0;
     for(i=0;i<n;i++){
         scanf("%d ",&array[i]);
-        if(i%2==0){
+        if(array[i]%2==0){
             even_count++;
         }
         else{
