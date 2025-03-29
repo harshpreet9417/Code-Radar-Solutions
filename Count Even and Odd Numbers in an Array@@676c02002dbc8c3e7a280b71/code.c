@@ -10,10 +10,10 @@ int main(){
         scanf("%d ",&array[i]);}
     for(i=0;i<n;i++){
         if(i%2==0){
-            even_count+=1;
+            even_count++;
         }
         if(i%2!=0){
-            odd_count+=1;
+            odd_count++;
         }
     }
     printf("%d ",even_count);
