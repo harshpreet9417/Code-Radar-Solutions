@@ -11,9 +11,10 @@ int main(){
         if(i%2==0){
             even_count+=1;
         }
+        else even_count=0;
         if(i%2!=0){
             odd_count+=1;
-        }
+        }else odd_count=0;
     }
     printf("%d ",even_count);
     printf("%d",odd_count);
