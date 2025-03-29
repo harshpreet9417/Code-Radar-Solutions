@@ -11,7 +11,7 @@ int main(){
         if(i%2==0){
             even_count++;
         }
-        if(i%2!=0){
+        else{
             odd_count++;
         }
     }
