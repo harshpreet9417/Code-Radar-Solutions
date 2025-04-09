@@ -14,7 +14,7 @@ int main()
             largest=array[i];
         }
         else if(array[i]<0){
-            second largest=array[i];
+            second_largest=array[i];
         }
         else if(array[i]>second_largest && array[i]!=largest){
             second_largest=array[i];
