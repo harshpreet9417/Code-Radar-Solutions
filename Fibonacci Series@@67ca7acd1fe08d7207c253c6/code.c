@@ -1,6 +1,7 @@
 // Your code here...
 int fibonacciSeries(int n){
     int n1=0,n2=1,n3;
+    fotr(int i=0;i<=n3;i++){
     if(n=1){
         printf("0");
     }
@@ -9,5 +10,5 @@ int fibonacciSeries(int n){
         n2=n3;
         n3=n1+n2;
     }
-    printf("%d",n3);
+    printf("%d ",n3);}
 }
