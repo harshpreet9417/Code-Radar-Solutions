@@ -10,12 +10,12 @@ int main(){
     int largest= array[0],n1=-1;
     for(int i=0;i<n;i++){
         if(array[i]>largest && array[i]%2==0){
-            printf("%d",array[i]);
+            return  array[i];
         }
         else if (array[i]>largest && array[i]%2!=0 || array[i]%2!=0){
-            printf("%d",n1);
+            return n1;
         }
-        
+        printf("%d",array[i]);
     }
     return 0;
 }
