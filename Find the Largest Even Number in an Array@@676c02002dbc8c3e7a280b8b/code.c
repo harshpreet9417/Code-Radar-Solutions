@@ -7,13 +7,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
-    int largest= array[0];
+    int largest= array[0],n1=-1;
     for(int i=0;i<n;i++){
         if(array[i]>largest && array[i]%2==0){
             printf("%d",array[i]);
         }
         else if (array[i]>largest && array[i]%2!=0 || array[i]%2!=0){
-            printf("-1");
+            printf("%d",n1);
         }
         
     }
