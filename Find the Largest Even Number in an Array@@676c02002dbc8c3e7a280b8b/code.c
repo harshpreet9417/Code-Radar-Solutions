@@ -13,7 +13,7 @@ int main(){
             printf("%d",array[i]);
         }
         else if (array[i]>largest && array[i]%2!=0 || array[i]%2!=0){
-            printf("0");
+            printf("-1");
         }
         
     }
