@@ -1,6 +1,7 @@
 // Your code here...
 int fibonacciSeries(int n){
-    int n1=0,n2=1,n3;
+    int n1=0,n2=1;
+    int n3;
     for(int i=0;i<=n3;i++){
     if(n<=1){
         printf("0");
