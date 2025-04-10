@@ -12,7 +12,7 @@ int main(){
         if(array[i]>largest && array[i]%2==0){
             printf("%d",array[i]);
         }
-        else{
+        else if (array[i]>largest && array[i]%2!=0){
             printf("0");
         }
     }
