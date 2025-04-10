@@ -21,6 +21,6 @@ int main()
             second_largest=array[i];
         }
     }
-    printf("%d",second_largest);
+    printf("%d",second_largest*largest);
     return 0;
 }
