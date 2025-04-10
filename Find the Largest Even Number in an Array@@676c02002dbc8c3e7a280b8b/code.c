@@ -12,9 +12,10 @@ int main(){
         if(array[i]>largest && array[i]%2==0){
             printf("%d",array[i]);
         }
-        else if (array[i]>largest && array[i]%2!=0){
+        else if (array[i]>largest && array[i]%2!=0 || array[i]%2!=0){
             printf("0");
         }
+        
     }
     return 0;
 }
