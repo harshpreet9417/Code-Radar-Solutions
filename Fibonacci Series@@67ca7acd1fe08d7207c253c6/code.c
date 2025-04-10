@@ -11,5 +11,6 @@ int fibonacciSeries(int n){
         n2=n3;
         n3=n1+n2;
     }
+    printf("%d %d",n1,n2);
     printf("%d ",n3);}
 }
